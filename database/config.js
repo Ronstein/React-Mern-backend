@@ -6,7 +6,7 @@ const dbConnection = async () => {
             // useUnifiedTopology: true,
             //useCreateIndex: true,
         });
-        //console.log('dbonline');
+        console.log('dbonline');
     } catch (error) {
         console.log(error);
         throw new Error('Error a la hora de inicializar BD');
